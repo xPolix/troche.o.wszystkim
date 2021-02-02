@@ -1,0 +1,64 @@
+.rainbow {
+  
+   /* Font options */
+  text-shadow: 2px 2px 4px #000000;
+  font-size:80px;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 15s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 15s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 15s infinite; 
+}
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+h1 {
+  text-align: center;
+  font-family:arial;
+  font-size: 75px;
+}
+h2 {
+  position: relative;
+  top: -100px;
+  text-align: center;
+  font-family: arial;
+  font-size: 30px;
+}
+  
+  
+  
+p {
+  text-align: center;
+  font-family:arial;
+  font-size: 60px;
+}
+  
+  
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
